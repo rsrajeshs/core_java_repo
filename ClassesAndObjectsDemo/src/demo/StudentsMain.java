@@ -22,5 +22,13 @@ public class StudentsMain
 		System.out.println("Student ID: " + this.studentId);
 
 	}
+	
+	void printing_results(boolean pass)
+	{
+		System.out.println("Student result: " + pass);
+	}
 
+	//	1. Assigning values during declaration...
+	//	2. Passing values in the calling statement...
+	//	3. Passing values for the current/this object...
 }
