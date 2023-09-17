@@ -1,6 +1,6 @@
 package demo;
 
-public class StudentsMain 
+public class StudentsMain
 {
 	// variables or data or attributes
 	int studentId;

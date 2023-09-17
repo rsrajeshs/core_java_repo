@@ -7,6 +7,8 @@ public class RunSchool
 
 	public static void main(String[] args)
 	{
+		
+		
 		// Classname objectname = new Classname();
 		// Syntax for creating an object...
 		StudentsMain Student_1 = new StudentsMain();
@@ -44,6 +46,12 @@ public class RunSchool
 		
 		System.out.println("You entered Student ID: " + Student_50.studentId);
 		System.out.println("You entered Student name: " + Student_50.name);
+		
+		
+		HonoursStudent hon_student_n = new HonoursStudent();
+		hon_student_n.check_scholarship_eligibility();
+		hon_student_n.check_programme_eligibility(true);
+		
 	}
 
 }
